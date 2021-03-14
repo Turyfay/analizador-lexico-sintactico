@@ -1,1 +1,11 @@
 Lenguajes de programacion
+
+<Programa>::=<LineasCodigo>
+<LineasCodigo>::=<Instruccione>|<LineasCodigo><Instrucciones>
+<Instruciones>::=<sentencia-repeticion> | <sentencia-condicional>|<expresion>
+
+<sentencia-repeticion>::=<sentencia-mientras>|<sentencia-repetir>|<sentenc - para>
+<sentencia-mientras>::=MIENTRAS <condicion>HACER <LineasCodigo> FIN-MIENTRAS
+<sentencia-repetir::=REPETIR <LineasCodigo>HASTA <condicion>
+<sentencia-para>::=PARA <variable>|<constante>|<entero> DESDE <entero>HASTA <entero> IMCREMENTO<entero> <Lineascodigo> FIN-PARA
+
